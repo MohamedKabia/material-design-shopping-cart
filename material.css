@@ -1,0 +1,151 @@
+*{
+   margin:0;
+   padding:0;
+}
+body{
+	background:#E7EEEC;
+}
+.card{
+	/* width:100%;  */
+	min-height:30vh; 
+	/* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.64); */
+}
+
+.header{
+	width:100%;
+	max-height:10vh;
+	background:#0A59BE;
+	color:white;
+	text-align:center;
+}
+
+
+
+ #section1{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+/* styling shopping cart */
+#nav1{
+	height:8vh;
+	width:100%;
+	box-shadow:20;
+	background:#0A59BE;
+	color:white;
+	font-size:1.2em;
+}
+/* styling cart items */
+#cartItems img{
+	float:left;
+}
+#cartItems .p{
+	float:right;
+}
+
+#cartItems{
+	
+	width:60vw;
+	height:auto;
+	background:white;
+	color:black;
+	margin:auto auto;
+	margin-top:20px;
+	
+}
+.backdroop{
+	position:absolute;
+	top:180%;
+	right:3%;
+	width:73vw;
+	min-height:78vh;
+	background:rgba(0,0,0,0.7);
+	display:none; 
+	z-index:4;
+}
+#cart{
+	font-size:1.5em;
+	
+}
+#carticon{
+	margin-left:400px;
+	margin-top:1px;
+}
+.col-md-4{
+	box-sizing:border-box;
+	padding:3px;
+	
+}
+/* img styling */
+
+.col-md-4 img{
+	width:100%;
+	
+}
+
+.items{
+	background:gray;
+	padding:3px;
+}
+#totalItems{
+	position:absolute;
+	left:78%;
+	background:red;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	text-align:center;
+}
+#section2{
+	margin-top:50px;
+	height:80vh;
+	
+}
+/* card styles */
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+	
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+ 
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+h1{
+	text-align:center;
+}
+
+
+
+@media(max-width:700px){
+	#carticon{
+		margin-top:-12px;
+	}
+	.backdroop{
+		width:100%;
+		top:80%;
+		right:0%;
+	}
+	#cartItems{
+		width:80vw;
+	}
+	#next{
+	margin-left:280px;
+}
+}
